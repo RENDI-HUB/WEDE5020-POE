@@ -10,5 +10,6 @@ To support nationwide growth, the upgraded website will include the following co
  * Essential Pages:
    * Homepage: Highlights the mission of the organization.
    * About Us: Shares the organization story, mission statement, and our leading principle .
-   * Contact Us Page: includes customer support contacts, and operating hours.
+   * Contact Us Page: includes customer support contacts.
    * enquire: Includes a direct inquiry form on general queries, making donations and volunteer vacancies
+   * services: shares organization  events 
