@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquire</title>
+    <style>
+      /* navigation styling and vertical placement */
+     nav ul {
+            list-style-type:none;
+            margin:0;
+            padding:0%;
+                         
+        }
+        nav ul li {
+            float:inline-end;
+            margin-left: 20px;
+           color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+        }
+        
+        /* form styling */
+    .form-group {
+      margin-bottom: 15px;
+    }
+  body {
+  font-family: Arial, sans-serif;
+  background: #19192d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: #2b3d57;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  float: center;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #007BFF;
+  color: white;
+  border:ridge;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#responseMessage {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(26, 27, 35);
+}
+
+        
+        
+        
+        </style>
+        
+
+        
+</head>
+<h1 style="font-family:Georgia, 'Times New Roman', Times, serif; margin:0;font-size: 500%;color:rgb(226, 225, 225);">Enquire</h1>
+<style>
+    body {
+        background-image: url('images/EHero.jpeg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }</style>
+<body>
+
+
+
+  
+
+
+  <div class="form-container">
+    <h2>Enquiry Form</h2>
+    <form id="enquiryForm">
+      <label for="name">Full Name*</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email*</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject</label>
+      <select id="subject" name="subject">
+        <option value="general">General Enquiry</option>
+        <option value="donate">donate</option>
+        <option value="sponsor">sponsor</option>
+      </select>
+<br>
+      <label for="message">Message*</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Enquiry</button>
+    </form>
+    <p id="responseMessage"></p>
+  </div>
+  <script src="script.js"></script>
+
+
+
+    <header>
+        
+ <nav>
+            <ul style="float:right;">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="enquire.html">Enquire</a></li>
+                <li><a href="index.html">Home</a></li> 
+
+            </ul>
+
+    </header>
+
+</body>
+</html>
